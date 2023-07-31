@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 #Ignore unzipped im.db file
-im.db
+zippedData/im.db
