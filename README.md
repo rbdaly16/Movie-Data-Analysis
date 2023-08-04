@@ -17,9 +17,10 @@ To facilitate this transition, we focused on three ways AirFlix can start out ah
 
 In order to accomplish all three of those, our data analysis led to the following recommendations:
 
-Worldwide Success ----> Big Budgets
-Blockbuster Films ----> Adventurous, Musical Animations
-Brand Recognition ----> High-Quality Directors
+Worldwide Success ----> Big Budgets<br>
+Blockbuster Films ----> Adventurous, Musical Animations<br>
+Brand Recognition ----> High-Quality Directors<br>
+
 Continue below to see how we arrived at these recommendations.
 
 ## **Data Understanding**
