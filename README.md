@@ -17,9 +17,10 @@ To facilitate this transition, we focused on three ways AirFlix can start out ah
 
 In order to accomplish all three of those, our data analysis led to the following recommendations:
 
-Worldwide Success ----> Big Budgets
-Blockbuster Films ----> Adventurous, Musical Animations
-Brand Recognition ----> High-Quality Directors
+Worldwide Success ----> Big Budgets<br>
+Blockbuster Films ----> Adventurous, Musical Animations<br>
+Brand Recognition ----> High-Quality Directors<br>
+
 Continue below to see how we arrived at these recommendations.
 
 ## **Data Understanding**
@@ -45,18 +46,20 @@ Our analysis consisted of bar graphs and linear regression models focusing on bu
 ## Recommendations
 **Budget**
 For budget, our recommendation is that you have to spend money to make money. As we can see in our linear regression graph, our data suggests that the bigger the budget, the bigger the return. Furthermore the R^2 value suggests that the budget accounts for 63% of variance in worldwide gross. This, along with a p-value smaller than .05 from the anova, shows that we can reject the null hypothesis and say that a film's budget does impact it's worldwide gross.
-![Screenshot%202023-08-04%20at%203.35.16%20PM.png](attachment:Screenshot%202023-08-04%20at%203.35.16%20PM.png)
+![Screenshot 2023-08-04 at 3 35 16 PM](https://github.com/rbdaly16/Movie-Data-Analysis/assets/126971652/93dea09e-ab2e-4161-94b5-f6649708e2a7)
 
 **Genre**
 For genre, we split movies out into each category they fell into and plotted the average worldwide gross by genre. Based on the graph below, we recommend creating adventurous, musical animations. These three genres had the highest average worldwide gross in our data and can easily pair well together in a film, as Olaf has proved.
-![Screenshot%202023-08-04%20at%203.36.28%20PM.png](attachment:Screenshot%202023-08-04%20at%203.36.28%20PM.png)
+![Screenshot 2023-08-04 at 3 36 28 PM](https://github.com/rbdaly16/Movie-Data-Analysis/assets/126971652/ab293549-e729-4f8b-8cc4-950b9d146187)
 
 
 **Director**
 For director, we created a director rating by averaging all of the IMDb movie ratings for each director. From there we joined this data with the worldwide gross data to see which directors acquired the most gross across the globe. Directors have fans, and if you want to start building a brand, why not start with a director who has a large population already on board?
 
 This graph represents the best available Directors who also are Writers for the films they make based on the director rating score we calculated. For Western-Centric audiences, we recommend Christopher Nolan, Damien Chazelle, or Wes Anderson. Nuri Bilge Ceylan did not have any data regarding budget and gross, so we do not feel comfortable selecting him. For the Indian Film market, S.S. Rajamouli would be an excellent selection as Director. Neeraj Pandey and Anurag Kashyap did not have any data regarding budget and gross, so we do not feel comfortable selecting them.
-![Screenshot%202023-08-04%20at%203.37.21%20PM.png](attachment:Screenshot%202023-08-04%20at%203.37.21%20PM.png)
+
+![Screenshot 2023-08-04 at 3 37 46 PM](https://github.com/rbdaly16/Movie-Data-Analysis/assets/126971652/b0a0eae9-560f-46d1-81a0-e3e3ec4ba467)
+![Screenshot 2023-08-04 at 3 37 21 PM](https://github.com/rbdaly16/Movie-Data-Analysis/assets/126971652/d49a1900-1d35-4433-a647-a6c014c154ad)
 
 
 ## **Next Steps**
@@ -74,11 +77,21 @@ By pursuing these next steps, the analysis of film success could be strengthened
 Thank you for taking the time to review our recommendations.
 We hope this information helps and we look forward to working with you more on the next steps.
 
-Sincerely,
-Bobby Daly, Michael Romanski
+Sincerely, <br>
+Bobby Daly, Michael Romanski <br>
 Airflix Studios
 
 ## Further Details
 Further details are available in the full analysis presented in the [Jupyter Notebook](https://github.com/rbdaly16/Movie-Data-Analysis/blob/bobby/Movie%20Data%20Analysis.ipynb). 
 
-
+## Repository Structure
+```
+├── data
+├── Scratch_notebook_folder
+├── images
+├── README.md
+├── .gitignore
+├── .DS_Store
+├── Movie Data Analysis Presentation.pdf
+└── Movie Data Analysis final.ipynb
+```
