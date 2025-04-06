@@ -82,7 +82,7 @@ Bobby Daly, Michael Romanski <br>
 Airflix Studios
 
 ## Further Details
-Further details are available in the full analysis presented in the [Jupyter Notebook](https://github.com/rbdaly16/Movie-Data-Analysis/blob/bobby/Movie%20Data%20Analysis.ipynb). 
+Further details are available in the full analysis presented in the [Jupyter Notebook](https://github.com/rbdaly16/Movie-Data-Analysis/blob/main/Movie%20Data%20Analysis%20final.ipynb). 
 
 ## Repository Structure
 ```
